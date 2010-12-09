@@ -12,6 +12,6 @@ when testing or debugging the logic of a parallelized program.""",
        author = "Konrad Hinsen",
        author_email = "konrad.hinsen@cnrs-orleans.fr",
        license = "CeCILL-C",
-
+       url = "http://bitbucket.org/khinsen/monoprocessing",
        py_modules = ['monoprocessing'],
        )
