@@ -19,7 +19,10 @@ class TestPool(unittest.TestCase):
 
     def setUp(self):
         self.pool = monoprocessing.Pool()
-    
+
+    def test_cpu_count(self):
+        self.assertEqual(monoprocessing.cpu_count(), 1)
+
     def test_apply(self):
         papply = self.pool.apply
         self.assertEqual(papply(sqr, (5,)), sqr(5))

@@ -6,6 +6,9 @@
 
 import itertools
 
+def cpu_count():
+    return 1
+
 class Pool(object):
     '''
     A dummy version of the class multiprocessing.Pool for use in

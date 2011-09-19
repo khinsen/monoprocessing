@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup (name = "monoprocessing",
-       version = "0.1",
+       version = "0.2",
        description = "A dummy implementation of multiprocessing.Pool",
        long_description = 
 """monoprocessing.Pool is a dummy version of multiprocessing.Pool. It
